@@ -40,8 +40,9 @@ document.queryselector('html');
 System.out.println('Olá, Mundo em Java!');
 ```
 
+
 Frutas | Doces
 ------ | ------
-Banana | Chocolate
+Banana | Cocada
 Abacaxi | Bala Juquinha
 Melão | Esticadinho
