@@ -28,7 +28,7 @@ Teste do *Itálico*
 ![Logotipo da Pipz](https://pipz.io/shared/1/files/logo_academy.JPG)
 
 > Não Faltem!
-> (João Marcos)
+
 
 Método `console.log()` no javascript
 
