@@ -1,20 +1,106 @@
-ui<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- 2º prioridade-->
+    <style>
+        body {
+            color:chartreuse;
+        }
+    </style>
 </head>
-<body>
+<body style="color:brown">
+    <!-- 1º prioridade-->
+
+    <header id="topo-pagina">
+        <nav>
+            <!--Lista não ordenada-->
+            <ul>
+                <!--item de lista-->
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre-nos">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="#Contato">Nosso Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre-nos">
+       
+        <a href="#topo-pagina">Voltar ao topo da página</a>
+        <h2>Sobre Nós</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui rem, consectetur molestias vitae dolorem illo nam exercitationem iste quos consequuntur libero saepe explicabo amet tenetur ex delectus autem minus ipsa.
+        </p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae itaque, iste vero saepe, natus nesciunt modi sit possimus illo odio unde delectus animi, veritatis minus?</p>
+    </section>
+        
+ <section id="Contato">
+    <h1>Contato</h1>
+               
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quos. Quae odio numquam reprehenderit optio, facilis velit? Explicabo nemo harum debitis quam reprehenderit nulla ullam? Hic suscipit nam eum enim.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quae vero! Vel impedit, tempore accusantium quisquam omnis optio id magni provident, fugit dolor ducimus? Doloribus nobis debitis distinctio! Aliquam, tempore!</p>
+            
+    <a href="#topo-pagina">Voltar ao topo da página</a>
+
+    <a href="#sobre-nos">Sobre nós</a>
+           
+ </section>
     <header>
    
         <h1> HTML Semântico </h1>
         <h2> Giving significate for estructure </h2>
         <h3> Training another changes again </h3>
         <h4> SOLVED </h4>
-         
+        
+        <ul> <style-type:cicle> 
+         <li>coffe</li>
+        </style-type:cicle>
+        </ul>
+
+        <ul><style-type:square>
+            <li> Tea </li>
+            </style-type:square>
+        </ul>
+
+        <article>
+            <header>
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, elegendi!</p>  
+
+        </header>
+        </article>
+
+        <article> 
+            <header>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, consequuntur.</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero reprehenderit non debitis laudantium eos cum.</p>
+                <p> Lorem ipsum dolor sit amet.</p>
+            </header>
+        </article>
+
         <p> Vamos utilizar estruturas semânticas para marcar o conteúdo da página </p>
     </header>
+<footer>
+   <!--Proibido-->
+    <p>
+        Link para o meu github:
+        <a href="https://github.com/PatrickCSS" Meu Github></a>
+    
+    </p>
+
+</footer>    
 
 </body>
 </html>
