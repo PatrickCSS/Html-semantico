@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+</head>
+<body>
+    <header id="topo">
+   
+        <h1>Explorando as Tags Semânticas do HTML</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#introducao">O que são?</a>
+                </li>
+
+                <li>
+                    <a href="#artigo1">Por quê é importante?</a>
+                </li>
+                
+                <li>
+                    <a href="#artigo2">Como a semântica afeta mecanismos de busca?</a>
+                </li>
+
+                <li>
+                    <a href="#artigo3">Como afeta a legibilidade do código?</a>
+                </li>
+
+                <li>
+                    <a href="#artigo4">Como usar corretamente?</a>
+                </li>
+
+                <li>
+                    <a href="#conclusao">Conclusão</a>
+                </li>
+
+            </ul>
+        
+        </nav>
+
+    </header>
+
+        <section id="introducao">
+            <article>
+                <h2>O que são Tags Semânticas?</h2>
+                
+                <p>
+                    As tags semânticas do HTML são elementos que conferem significado ao conteúdo, permitindo uma melhor compreensão tanto para os desenvolvedores quanto para os mecanismos de busca.
+                </p>
+                
+                <p>
+                    Elas ajudam a estruturar o conteúdo de forma mais clara e organizada, contribuindo para a acessibilidade e usabilidade do site.
+                </p>
+
+                <p>
+                    <sub>
+                    Exemplos de elementos não semânticos : 
+                        <strong>
+                            <em>&lt;div&gt;e &lt;span&gt;</em>
+                        </strong>
+                        
+                        - Não diz nada sobre o seu conteúdo.
+                    </sub>
+                </p>
+
+                <p>
+                    <sup>
+                       Exemplos de elementos semânticos : 
+                       <strong>
+                           <em>&lt;form&gt;, &lt;table&gt;, e &lt;article&gt;</em> 
+                       </strong>
+                       
+                       -Define claramente seu conteúdo.
+                    </sup> 
+                </p>  
+                     
+            </article>
+        </section>
+    
+        <section id="artigo1">
+            <article>
+                <h2>Por que a Semântica HTML é importante?</h2>
+
+                <p>
+                    A Semântica HTML é importante para a acessibilidade porque permite que as pessoas com deficiências visuais ou outras limitações possam navegar pelas páginas com mais facilidade.
+                </p>
+
+                <p>
+                    As tags semânticas nos ajudam a estruturar o conteúdo da nossa página de uma forma lógica e significativa, permitindo que leitores de tela, por exemplo, possam identificar facilmente o que é um título, um parágrafo ou uma lista.
+                </p>
+                
+            </article>
+        </section>
+
+        <section id="artigo2">
+            <article>
+                <h2>Como a semântica afeta a indexação/classificação por mecanismos de busca?</h2>
+
+                <p>
+                    A Semântica HTML é importante para a indexação por mecanismos de busca, pois ajudam os robôs dos mecanismos de busca a entender melhor o conteúdo da página.
+                </p>
+
+                <p>
+                    As tags semânticas permitem que os mecanismos de busca identifiquem facilmente o título da página, o conteúdo principal e as seções secundárias. Isso ajuda a melhorar a relevância da página nos resultados de busca.
+                </p>
+            
+            </article>
+         </section>
+
+        <section id="artigo3">
+            <article>
+                <h2>Como a semântica afeta a legibilidade do código?</h2>
+
+                <p>
+
+                    A Semântica HTML afeta a legibilidade do código porque torna o código mais fácil de entender e interpretar. Quando utilizamos as tags semânticas corretamente, o código se torna mais legível e estruturado, permitindo que outros desenvolvedores possam entender e modificar nosso código com mais facilidade. Isso é especialmente importante em projetos grandes e complexos.
+                </p>
+
+            </article>
+        </section>
+
+        <section id="artigo4">
+            <article>
+                <h2>Como usar a Semântica HTML corretamente?</h2>
+                
+                <p>
+                    Para usarmos a Semântica HTML corretamente, é importante entendermos o significado de cada tag e como devemos utilizá-la. É recomendável usarmos as tags HTML5 semânticas, como:
+                    
+                    <pre>
+                        <strong>
+                            &lt;main&gt;,&lt;nav&gt;,&lt;section&gt;,&lt;article&gt;,&lt;aside&gt;,&lt;figure&gt; e &lt;footer&gt;.
+                        </strong>
+                    </pre>
+                </p>
+
+                <h3>Exemplo de código utilizando Semântica HTML</h3>
+                
+                <p>
+                    Só para exemplificar, podemos observar a diferença entre um código utilizando a semântica HTML e um composto apenas por &lt;div&gt;, através destes códigos:
+                </p>
+                
+                <h4>Código sem semântica</h4>
+
+                <p>
+                    <pre> 
+                        &lt;<strong>div</strong> class="header"&gt;
+                            &lt;<strong>div</strong> class="logo"&gt;
+                            &lt;<strong>img src</strong>="logo.svg" alt="logo da TreinaWeb"&gt;
+                        &lt;<strong>/div</strong>&gt;
+                        &lt;<strong>div</strong> class="title"&gt;
+                            &lt;<strong>div</strong> class="titulo"&gt;TreinaWeb&lt;/div&gt;
+                            &lt;<strong>/div</strong>&gt;
+                        &lt;<strong>/div</strong>&gt;
+                    </pre> 
+                </p>
+
+                <h4><strong>Código com semântica</strong></h4>
+                
+                <p>
+                    <pre>
+
+                        &lt;<strong>header</strong> class="cabecalho"&gt;
+                            &lt;<strong>section</strong> class="logo"&gt;
+                                &lt;<strong>img src</strong>="logo.svg" alt="logo da TreinaWeb"&gt;
+                            &lt;<strong>/section</strong>&gt;
+                            &lt;<strong>ection</strong> class="title"&gt;
+                                &lt;<strong>h1</strong> class="titulo">TreinaWeb&lt;/h1&gt;
+                            &lt;/<strong>section</strong>&gt;
+                        &lt;<strong>/header</strong>&gt;
+                        
+                    </pre>
+                </p>
+
+
+            </article>
+        </section>
+
+        <section id="conclusao">
+            <article>
+
+                <h2>Conclusão</h2>
+                
+                    <p>
+                        Em conclusão, a semântica HTML é fundamental para criar páginas web acessíveis e otimizadas para mecanismos de busca. A utilização de elementos semânticos corretos permite que os navegadores, leitores de tela e outros dispositivos possam interpretar corretamente o conteúdo de uma página, tornando-a mais acessível para pessoas com deficiências visuais ou cognitivas.
+                    </p>
+
+                    <p>
+                        Além disso, a semântica também desempenha um papel importante no SEO-Search Engine Optimization (otimização de mecanismos de busca), ajudando os mecanismos de busca a entender o conteúdo de uma página e, assim, melhorar sua posição nos resultados de pesquisa.
+                    </p>
+
+                    <p>
+                        Portanto, é essencial que os desenvolvedores web priorizem o uso da semântica em seus projetos, garantindo uma melhor experiência para todos os usuários da web.
+                    </p>   
+            </article>
+        </section>
+        
+    <details>
+        <del>
+            <h3>Created by Patrick Santos</h3>
+        </del>
+
+        <ins>
+            <h3>Criado por Patrick Santos</h3>
+        </ins>
+    </details>
+
+    <footer>
+        <a href="#topo">Voltar ao início</a>
+    </footer>
+
+</body>
+</html>
