@@ -5,3 +5,11 @@ html{
 body {
     color:coral;
 }
+
+h1 {
+    color: deeppink;
+    line-height: 4;
+    font-weight: bold;
+    font-size: 22pt;
+    
+}
