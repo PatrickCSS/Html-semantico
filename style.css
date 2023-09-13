@@ -1,3 +1,11 @@
+:root{
+    --cor-primaria: #6527BE;
+    --cor-secundaria: #6517BB;
+    --cor-terciaria: #ffffff;
+    --cor-quarternaria: #81dacb;
+    --cor-fundo: #3571FF;
+    }
+
 html{
     scroll-behavior: smooth;/* comportamento-da-rolagem: Suave*/
 }
@@ -12,14 +20,14 @@ body {
 }
 
 .titulo-de-pagina{
-    color: blue;
+    color: var(--cor-fundo);
     line-height: 2;
     font-weight: hold;
     font-size: 22;
 }
 
 .titulo-de-artigo {
-    color: crimson;
+    color: var( --cor-terciaria);
     line-height: 2;
     font-weight: hold;
     font-size: 18pt;
@@ -27,7 +35,7 @@ body {
 }
 
 .titulo-de-secao{
-    color: #FFD6A5ee;
+    color: var(--cor-quarternaria);
     line-height: 1.8;
     font-weight: bold;
     font-size: 18pt;
@@ -35,7 +43,7 @@ body {
 }
 
 .subtitulo-de-artigo{
-    color: #800080;
+    color: var(--cor-primaria);
     line-height: 1.5;
     font-weight: bold;
     font-size: 14pt;
