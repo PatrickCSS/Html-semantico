@@ -11,5 +11,11 @@ h1 {
     line-height: 4;
     font-weight: bold;
     font-size: 22pt;
-    git 
+    }
+section#artigos {
+
+display: flex;
+flex-direction: row ;
+
 }
+    
